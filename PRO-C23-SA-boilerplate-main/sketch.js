@@ -16,6 +16,7 @@ function setup() {
   canvas = createCanvas(1200, 600);
   engine = Engine.create();
   world = engine.world;
+  angleMode(DEGREES);
   angle = 20
 
   ground = Bodies.rectangle(0, height - 1, width * 2, 1, { isStatic: true });
